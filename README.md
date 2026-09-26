@@ -88,4 +88,4 @@ During this assignment I learned and applied:
 
 All tasks are completed and the project runs without errors.
 
-You can see the result here:
+You can see the result here: https://karimamur07.github.io/assignment2-flexbox-grid/
