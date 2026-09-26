@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Assignment #2 — Flexbox & Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <a href="#" class="logo">MyBrand</a>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ============ PART 1: TASK 1 — CARD ROW ============ -->
+
+<section class="cards-section">
+  <h2>Our Cards</h2>
+
+  <div class="cards">
+    <article class="card">
+      <img src="https://picsum.photos/id/1015/400/250" alt="Card 1">
+      <h3>Card Title 1</h3>
+      <p>This is a short description of the first card. Flexbox helps align everything nicely.</p>
+      <button>Read More</button>
+    </article>
+
+    <article class="card">
+      <img src="https://picsum.photos/id/1016/400/250" alt="Card 2">
+      <h3>Card Title 2</h3>
+      <p>This is the second card. All cards have the same height thanks to Flexbox.</p>
+      <button>Read More</button>
+    </article>
+
+    <article class="card">
+      <img src="https://picsum.photos/id/1018/400/250" alt="Card 3">
+      <h3>Card Title 3</h3>
+      <p>The third card. When you hover over it, a shadow and a lift effect appear</p>
+      <button>Read More</button>
+    </article>
+  </div>
+</section>
+
+<!-- ============ PART 2: TASK 2 — GRID LAYOUT ============ -->
+
+<section class="grid-layout">
+
+  <header class="grid-header">Header</header>
+
+  <aside class="grid-sidebar">Sidebar</aside>
+
+  <main class="grid-main">
+    <h2>Main Content</h2>
+    <p>This area is placed on the right using CSS Grid.</p>
+  </main>
+
+  <footer class="grid-footer">Footer</footer>
+
+</section>
+
+
+<!-- ============ PART 2: TASK 3 — IMAGE GALLERY ============ -->
+
+<section class="gallery-section">
+  <h2>Image Gallery</h2>
+
+  <div class="gallery">
+    <figure>
+      <img src="https://picsum.photos/id/1015/400/300" alt="Image 1">
+      <figcaption>Nature 1</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1016/400/300" alt="Image 2">
+      <figcaption>Nature 2</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1018/400/300" alt="Image 3">
+      <figcaption>Nature 3</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1019/400/300" alt="Image 4">
+      <figcaption>Nature 4</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1020/400/300" alt="Image 5">
+      <figcaption>Nature 5</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1021/400/300" alt="Image 6">
+      <figcaption>Nature 6</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1022/400/300" alt="Image 7">
+      <figcaption>Nature 7</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1023/400/300" alt="Image 8">
+      <figcaption>Nature 8</figcaption>
+    </figure>
+    <figure>
+      <img src="https://picsum.photos/id/1024/400/300" alt="Image 9">
+      <figcaption>Nature 9</figcaption>
+    </figure>
+  </div>
+</section>
+
+
+
+<!-- ============ PART 3: COMBINED FLEX + GRID ============ -->
+
+
+<section class="portfolio">
+
+  <!-- Header (Flexbox) -->
+  <header class="portfolio-header">
+    <a href="#" class="portfolio-logo">Portfolio</a>
+    <nav>
+      <ul class="portfolio-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main (Grid) -->
+  <div class="portfolio-main">
+
+    <div class="projects">
+      <h2>My Projects</h2>
+
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>Short description of the first project.</p>
+        <button>View</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>Short description of the second project.</p>
+        <button>View</button>
+      </div>
+
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>Short description of the third project.</p>
+        <button>View</button>
+      </div>
+    </div>
+
+    <aside class="info">
+      <h2>About Me</h2>
+      <p>Student learning web development.</p>
+    </aside>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="portfolio-footer">
+    <p>© 2025 My Portfolio</p>
+  </footer>
+
+</section>
+
+
+</body>
