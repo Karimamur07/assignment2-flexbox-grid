@@ -2,7 +2,7 @@
 Karima Mursalimova
 IT-2502
 
-##Part 1. Flexbox
+## Part 1. Flexbox
 
 Task 0. Navigation Bar
 
@@ -29,7 +29,7 @@ A container with three cards was created (each card contains an image, title, te
 Flexbox was used: `display: flex`, `gap`, `flex: 1` for equal width, and `flex-grow` for equal height.  
 A hover effect was added (lift + shadow).
 
-##Part 2. Grid System
+## Part 2. Grid System
 
 Task 2. Page Layout with Grid Areas
 
@@ -56,7 +56,7 @@ A gallery with 9 images was created.
 CSS Grid was used: `repeat(3, 1fr)` and `gap`.  
 A hover effect was added — a caption overlay appears when hovering over an image.
 
-##Part 3. Combining Flexbox & Grid
+## Part 3. Combining Flexbox & Grid
 
 Task 4. Portfolio Page
 
