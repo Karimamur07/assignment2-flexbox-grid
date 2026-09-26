@@ -1,4 +1,3 @@
-/* ===== БАЗА ===== */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +10,7 @@ body {
   color: #222;
 }
 
-/* ===== HEADER (Part 1 - задание A) ===== */
+/* ===== HEADER (Part 1 - Task A) ===== */
 .header {
   display: flex;                    
   justify-content: space-between;   
